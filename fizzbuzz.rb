@@ -9,7 +9,7 @@
 # 3.  check for multiples of 5 and print out buzz
 # 4.  check for multiples of 3 and 5 and print out both 
 
-array(1..100)
+
 
 (1..100).each do |i|
   if (i % 3 == 0) && (i % 5 == 0)
@@ -22,3 +22,5 @@ array(1..100)
     p i
   end
 end
+
+
